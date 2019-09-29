@@ -6,6 +6,9 @@ import SearchContainer from './components/tabber/SearchContainer.vue'
 
 var router = new VueRouter({
   routes:[
+    {
+      path:'/',redirect:'/home'
+    },
     {path:'/home',component:HomeContainer},
     {path:'/member',component:MemberContainer},
     {path:'/shopcar',component:ShopcarContainer},
